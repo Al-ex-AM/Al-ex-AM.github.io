@@ -1,0 +1,44 @@
+/* CSS HEX */
+:root {
+--pink-lace: #ffd6ffff;
+--mauve: #e7c6ffff;
+--maximum-blue-purple: #c8b6ffff;
+--lavender-blue: #b8c0ffff;
+--lavender-blue-2: #bbd0ffff;
+--sixty: #A899D6;
+--thirty: #EBD0FF;
+--ten: #FEF400;
+}
+.button {
+  text-decoration:center;
+  border: 0.1rem solid var(--ten);
+  border-radius: 15px;
+  color: var(--ten);
+  background-color: var(--sixty);
+  font: bold 1rem "Source Serif Pro";
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.1rem;
+}
+.thirty{
+  color: var(--thirty);
+  text-align: center;
+  font: bold 2.5rem "Source Serif Pro";
+}
+.sixty {
+  color: var(--sixty);
+}
+.ten {
+  color: var(--ten);
+}
+
+.all {
+  background-color:var(--sixty);
+  font-family: "Source Serif Pro", serif;
+  font: bold 1rem "Source Serif Pro";
+}
+body,html {
+  height: 100%;
+}
+
+
