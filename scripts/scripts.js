@@ -15,6 +15,6 @@ function second() {
   btn.remove();
 }
 function third() {
-  let html = '<img src="purpleheart.svg" alt="shit">';
+  let html = '<img class="heart" src="purpleheart.svg" alt="shit">';
   document.getElementById("imgPlace").insertAdjacentHTML("afterbegin", html);
 }
