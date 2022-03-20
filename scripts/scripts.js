@@ -4,11 +4,11 @@ function first() {
   document.getElementById("invisible").innerText = "";
   document.getElementById("text").innerText = `Mar, I love you. I know this is a really simple present but I still wanted to give you something that I've made with my own 'hands' sometime, so here it is.
 
-I hope you really enjoy going to the concer and hearing Morat live, you've been listening to their music since a long time and I know you really enjoy listening, so seeing them perform could be even better.
+I hope you really enjoy going to the concert and hearing Morat live, you've been listening to their music since a long time and I know you really enjoy listening them, so seeing them perform could be even better.
 
-I love you a lot, I don't even think I can put it in word. We've been dating since a long time and really enjoy being with you, it's great to have you by my side and I hope I can have you for the years to come. 
+I love you a lot, I don't even think I can put it in words. We've been dating since a long time and really enjoy being with you, it's great to have you by my side and I hope I can have you for the years to come. 
 
-Enjoy your birthday, and also you be having something more, you'll see ; ) .`;
+Enjoy your birthday, and also you'll be having something more, you'll see ; ) .`;
 
   document.getElementById("btnPlace").insertAdjacentHTML("afterbegin", html);
   btn.remove();
